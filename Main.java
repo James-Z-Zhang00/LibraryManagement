@@ -1,6 +1,4 @@
-// Zhang, Zijian, 15345608, Assignment 2, 159.234
-/* To create a salary specifier that reads in name-id-salary combination and
- display them in certain range of salary given by user */
+
 
 import java.io.*;
 import java.text.DecimalFormat;
