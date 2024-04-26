@@ -9,13 +9,6 @@ import java.text.SimpleDateFormat;
 
 public class Main {
 
-    private static void displayInfo() {
-        System.out.println("-------------------------------------");
-        System.out.println("Assignment2, 159.234 Semester 1 2021");
-        System.out.println("Submitted by: Zhang, Zijian 15345608");
-        System.out.println("-------------------------------------");
-    }
-
     public static List<LibraryItem> Read_In(String fileName) {
         List<LibraryItem> libraryItems = new ArrayList<>();
         try {
@@ -45,7 +38,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        displayInfo();
         List<LibraryItem> dataSet = new ArrayList<>();
         dataSet = Read_In("library.txt");
         String userInput = "";
